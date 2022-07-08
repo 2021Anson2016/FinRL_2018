@@ -20,13 +20,13 @@ setup(
     include_package_data=True,
     author="Hongyang Yang, Xiaoyang Liu",
     author_email="hy2500@columbia.edu",
-    url="https://github.com/finrl/finrl-library",
+    url="https://github.com/tnerush71/finrl/finrl-library",
     license="MIT",
     packages=find_packages(),
     install_requires=REQUIRES
                      + ["pyfolio @ git+https://github.com/quantopian/pyfolio.git#egg=pyfolio-0.9.2"]
                      + [
-                         "elegantrl @ git+https://github.com/AI4Finance-Foundation/ElegantRL.git#egg=elegantrl"
+                         "elegantrl @ git+https://github.com/tnerush71/ElegantRL.git#egg=elegantrl"
                      ],
     # install_requires=REQUIRES,
     description="FinRL: Financial Reinforcement Learning Framework.",
